@@ -1,7 +1,7 @@
 import nnfs
 from nnfs.datasets import spiral_data
 
-nnfs.init()
+nnfs.init() 
 
 # Creae dataset
 X, y = spiral_data(samples=100, classes=3)
